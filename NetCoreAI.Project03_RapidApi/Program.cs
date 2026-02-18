@@ -1,8 +1,6 @@
 ﻿using NetCoreAI.Project03_RapidApi.ViewModels;
 using Newtonsoft.Json;
 
-
-
 var client = new HttpClient();
 List<ApiSeriesViewModel> apiSeriesViewModels = new List<ApiSeriesViewModel>();
 var request = new HttpRequestMessage
